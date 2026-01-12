@@ -1,0 +1,121 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/win-x64": {
+      "EmotionInstructor/1.0.0": {
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntime": "1.17.0",
+          "OpenCvSharp4": "4.9.0.20240103",
+          "OpenCvSharp4.Extensions": "4.9.0.20240103",
+          "OpenCvSharp4.runtime.win": "4.9.0.20240103"
+        },
+        "runtime": {
+          "EmotionInstructor.dll": {}
+        }
+      },
+      "Microsoft.ML.OnnxRuntime/1.17.0": {
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntime.Managed": "1.17.0"
+        },
+        "native": {
+          "runtimes/win-x64/native/onnxruntime.dll": {
+            "fileVersion": "1.17.24.130"
+          },
+          "runtimes/win-x64/native/onnxruntime.lib": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/onnxruntime_providers_shared.dll": {
+            "fileVersion": "1.17.24.130"
+          },
+          "runtimes/win-x64/native/onnxruntime_providers_shared.lib": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntime.Managed/1.17.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.ML.OnnxRuntime.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4/4.9.0.20240103": {
+        "runtime": {
+          "lib/net6.0/OpenCvSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4.Extensions/4.9.0.20240103": {
+        "dependencies": {
+          "OpenCvSharp4": "4.9.0.20240103"
+        },
+        "runtime": {
+          "lib/net6.0/OpenCvSharp.Extensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4.runtime.win/4.9.0.20240103": {
+        "native": {
+          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg490_64.dll": {
+            "fileVersion": "2023.12.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmotionInstructor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.ML.OnnxRuntime/1.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-voFOYGFWcE1YFHnrBECofPC+uHDelBealnTOE4Kx1byqfOJWsUOI9WGJzu8YkLvOVTRIH39WHtrt22UhHkkWOg==",
+      "path": "microsoft.ml.onnxruntime/1.17.0",
+      "hashPath": "microsoft.ml.onnxruntime.1.17.0.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntime.Managed/1.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-scI9s0xhkyANmc8fz8NLkZHJHS7hS+nTEk3X+X9GcLVpsIqxMx0Wg/ib6flDfv3bIjt6rVtJv6OXtRJvwiRBWA==",
+      "path": "microsoft.ml.onnxruntime.managed/1.17.0",
+      "hashPath": "microsoft.ml.onnxruntime.managed.1.17.0.nupkg.sha512"
+    },
+    "OpenCvSharp4/4.9.0.20240103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+BJMqToSH3dl+5SUF2YaPI+1eY/o/aTtvCQsY3qgcE4YS8qvPNS7MObzzVy4avYrBmcEEFnCvNF+1VbFnQjU9w==",
+      "path": "opencvsharp4/4.9.0.20240103",
+      "hashPath": "opencvsharp4.4.9.0.20240103.nupkg.sha512"
+    },
+    "OpenCvSharp4.Extensions/4.9.0.20240103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zqFJuQPV36ttTMrN1kMGQdj8rDD+wMDtTU5fVGE8osSPEAyehru1ow3xTAmB04uiaKlbzl/gy2G9BnbT+OgMNA==",
+      "path": "opencvsharp4.extensions/4.9.0.20240103",
+      "hashPath": "opencvsharp4.extensions.4.9.0.20240103.nupkg.sha512"
+    },
+    "OpenCvSharp4.runtime.win/4.9.0.20240103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PkV3ge6rE//gj0OlG4TRXzmcLVDoKsJx0lYN1ogx9gZhqUPHlzrnWqKk2hAFK+nU8T0chRhrwHL0U2hSMyoCWw==",
+      "path": "opencvsharp4.runtime.win/4.9.0.20240103",
+      "hashPath": "opencvsharp4.runtime.win.4.9.0.20240103.nupkg.sha512"
+    }
+  }
+}

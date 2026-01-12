@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\laya_\\OneDrive\\Documents\\GitHub\\DesktopEmotionDetector\\EmotionInstructor\\EmotionInstructor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\laya_\\OneDrive\\Documents\\GitHub\\DesktopEmotionDetector\\EmotionInstructor\\EmotionInstructor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\laya_\\OneDrive\\Documents\\GitHub\\DesktopEmotionDetector\\EmotionInstructor\\EmotionInstructor.csproj",
+        "projectName": "EmotionInstructor",
+        "projectPath": "C:\\Users\\laya_\\OneDrive\\Documents\\GitHub\\DesktopEmotionDetector\\EmotionInstructor\\EmotionInstructor.csproj",
+        "packagesPath": "C:\\Users\\laya_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\laya_\\OneDrive\\Documents\\GitHub\\DesktopEmotionDetector\\EmotionInstructor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laya_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.ML.OnnxRuntime": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "OpenCvSharp4": {
+              "target": "Package",
+              "version": "[4.9.0.20240103, )"
+            },
+            "OpenCvSharp4.Extensions": {
+              "target": "Package",
+              "version": "[4.9.0.20240103, )"
+            },
+            "OpenCvSharp4.runtime.win": {
+              "target": "Package",
+              "version": "[4.9.0.20240103, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
