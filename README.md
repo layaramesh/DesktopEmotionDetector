@@ -1,8 +1,9 @@
-dotnet build
-dotnet run
 # DesktopEmotionDetector
 
 A Windows WPF desktop app that monitors faces on screen every 5 seconds, detects emotions with dual ONNX models, and flags students who may need help. Built from the research outcome of [CodeWiseFacialRecognitionCNN](https://github.com/layaramesh/CodeWiseFacialRecognitionCNN).
+
+EXAMPLE USAGE:
+[![Watch the video](https://raw.githubusercontent.com/layaramesh/DesktopEmotionDetector/main/path/to/thumbnail.png)](https://raw.githubusercontent.com/layaramesh/DesktopEmotionDetector/main/path/to/emotiondetectorexample.mp4)
 
 ## 🚀 Quick Start
 
